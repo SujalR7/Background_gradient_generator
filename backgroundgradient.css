@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-image: linear-gradient(to left,#FFA99F, #FF719A);
+}
+.container{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    color:white;
+    flex-direction:column;
+    gap:2rem;
+    justify-content:center;
+    font-size:0.92rem;
+    align-items:center;
+}
+.icons{
+    width:10rem;
+    height:10rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.top{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    margin-left:1.3rem;
+    gap:3rem;
+}
+.side{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:-0.2rem;
+    margin-left:-2.0rem;
+    gap:2rem;
+}
+.icons i{
+    cursor:pointer;
+}
+.buttons{
+    display:flex;
+    gap:3.5rem;
+}
+button{
+    font-size:2rem;
+    color:white;
+    width:20rem;
+    height:10rem;
+    border-radius:1.2rem;
+    border:0.1rem solid;
+}
+#btn1{
+    background-color:#FFA99F;
+}
+#btn2{
+    background-color:#FF719A;
+}
+.title{
+    font-size:1.6rem;
+    word-spacing:0.1rem;
+    margin-top:3rem;
+}
+.title:hover{
+cursor:pointer;
+text-decoration:underline;
+}
+.desc{
+    height:10rem;
+    font-size:1.2rem;
+    line-height:10rem;
+    text-align:center;
+    width:34rem;
+    border:1px solid;
+    cursor:pointer;
+    background-color: rgba(255, 255, 255, 0.324);
+}
+.title{
+    cursor:pointer;
+    text-decoration:underline;
+}
+.desc>p{
+    font-size:1.2rem;
+}
+@media screen and (max-width:599px) {
+    html{
+        font-size:100%;
+    }
+}
+@media screen and (min-width:600px){
+    html{
+        font-size:62.5%;
+    }
+}
+@media screen and (min-width:1024px){
+    html{
+        font-size:90%;
+    }
+}
+@media screen and (min-width:1440px){
+    html{
+        font-size:100%;
+    }
+}
+@media screen and (min-width:2560px){
+    html{
+        font-size:200%;
+    }
+}
+@media screen and (max-width:600px){
+    html{
+        font-size:35%;
+    }
+}
+@media screen and (max-width:425px){
+    html{
+        font-size:30%;
+    }
+}
+@media screen and (max-width:375px){
+    html{
+        font-size:14%;
+    }
+}
